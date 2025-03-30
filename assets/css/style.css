@@ -74,3 +74,10 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  #hero {
+    background-image: url('../img/hero.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+  }
