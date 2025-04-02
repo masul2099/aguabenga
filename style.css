@@ -6,6 +6,8 @@
 
 nav {
     display: flex;
+    justify-content: space-between;
+    padding: .5rem;
 }
 
 nav ul li {
@@ -16,4 +18,16 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: black;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-text{
+    padding: 35px;
+}
+
+.hero img {
+    width: 380px;
 }
