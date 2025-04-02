@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+   list-style-type: none;
+   display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
