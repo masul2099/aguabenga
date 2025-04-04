@@ -1,3 +1,5 @@
+/* Universal Selector Start */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,35 @@
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 1rem;
 }
+
+/* Universal Selector End */
+
+/* Navigation Start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   margin: 8px 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo img {
+    width: 24px;
+}
+
+/* Navigation End */
+
+/* Hero Start */
 
 .hero {
     background-image: url('img/bg.jpg');
@@ -14,8 +45,10 @@
     height: 500px;
     color: white;
 }
+
 .hero-content {
     display: flex;
+    justify-content: center;
 }
 
 .hero-text {
@@ -31,23 +64,6 @@
     width: 350px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: .5rem;
-}
-
-nav ul li {
-   list-style-type: none;
-   display: inline;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-
 .hero-text{
     padding: 30px;
 }
@@ -55,3 +71,5 @@ nav ul li a {
 .hero img {
     width: 380px;
 }
+
+/* Hero End */
