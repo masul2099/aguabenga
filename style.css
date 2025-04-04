@@ -39,7 +39,7 @@ nav .logo img {
 
 .hero {
     background-image: url('img/bg.jpg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
