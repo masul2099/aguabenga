@@ -2,6 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+
+.hero {
+    background-image: url('img/bg.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+}
+.hero-content {
+    display: flex;
+}
+
+.hero-text {
+    margin: 70px 0;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    width: 450px;
+}
+
+.hero-text p {
+    width: 350px;
 }
 
 nav {
@@ -17,12 +44,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-.hero {
-    display: flex;
-}
 
 .hero-text{
     padding: 30px;
