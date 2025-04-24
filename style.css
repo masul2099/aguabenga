@@ -6,9 +6,27 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 /* Universal Selector End */
+
+/* Universal Class Start */
+
+.title {
+    font-size: 2.6rem;
+}
+
+/* Universal Class En d */
+
+
 
 /* Navigation Start */
 
@@ -19,13 +37,11 @@ nav {
 }
 
 nav ul li {
-   list-style-type: none;
    display: inline-block;
    margin: 8px 8px;
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
 }
 
@@ -38,38 +54,84 @@ nav .logo img {
 /* Hero Start */
 
 .hero {
+    display: flex;
+    flex-direction: column;
     background-image: url('img/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
     color: white;
 }
 
-.hero-content {
+.hero .content {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 22px;
 }
 
-.hero-text {
-    margin: 70px 0;
+.hero .text {
+    flex: 1;
+    align-content: center;
+    margin: 22px;
 }
 
-.hero-text h1 {
-    font-size: 3rem;
-    width: 450px;
-}
-
-.hero-text p {
-    width: 350px;
-}
-
-.hero-text{
-    padding: 30px;
-}
-
-.hero img {
-    width: 380px;
+.hero .img img {
+    width: 400px;
 }
 
 /* Hero End */
+
+/* About Start */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.about .cards {
+    display: flex;
+    margin: 0 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about .cards .card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about .cards .card .border {
+    display: block;
+    border-radius: 8px;
+    border: 4px rgb(80, 156, 255) solid;
+}
+
+.about .cards .card
+.head {
+    font-weight: bold;
+}
+
+.about .cards .card
+.body {
+    color: grey;
+}
+
+/* About End */
+
+
+/*
+@media screen and (max-width: 800px) {
+    .hero {
+      color: blue;
+    }
+  }
+*/
