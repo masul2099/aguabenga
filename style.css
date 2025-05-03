@@ -33,7 +33,7 @@ section {
 #myVideo {
     position: fixed;
     top: 0;
-    right: 0;
+   
     min-width: 100%;
     min-height: 100%;
   }
@@ -43,23 +43,26 @@ section {
 
 /* Hero Start */
 
-.hero {
+.hero .content {
     position: fixed;
-    bottom: 0;
+    top: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
+    height: 100vh;
     width: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero End */
 
-/* Navigation Start */
+/* Hero Navigation Start */
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 2px;
 }
 
 nav ul li {
@@ -75,49 +78,28 @@ nav .logo img {
     width: 20px;
 }
 
-/* Navigation End */
+/* Hero Navigation End */
+
+/* Hero Text Start */
+
+.hero .content .text {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content .text h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* Hero Text End */
 
 
 /* About Start */
 
-.about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
 
-}
-
-.about .cards {
-    display: flex;
-    margin: 0 100px;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.about .cards .card {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.about .cards .card .border {
-    display: block;
-    border-radius: 8px;
-    border: 4px rgb(80, 156, 255) solid;
-}
-
-.about .cards .card
-.head {
-    font-weight: bold;
-}
-
-.about .cards .card
-.body {
-    color: grey;
-}
 
 /* About End */
 

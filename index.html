@@ -4,10 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ÁguaBenga</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
   <style>
+    * {
+      margin: 0;
+    }
+
     body {
+      font-family: 'Comfortaa';
       background-image: url('./img/bg.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
       height: 100vh;
       display: flex;
       justify-content: center;
@@ -15,15 +23,23 @@
     }
 
     .info {
+      width: 100%;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .info .content {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
       color: white;
       text-align: center;
       gap: 16px;
+      height: 100vh;
     }
 
-    .info img {
+    .info .content img {
       width: 100px;
     }
 
@@ -37,9 +53,11 @@
 <body>
 
   <div class="info">
-  <img src="./img/logo.png" alt="ÁguaBenga Logo">
-  <h1>We Are Coming Soon</h1>
-  <p>This Website Is Still Under Construction</p>
+    <div class="content">
+      <a href="./home.html"><img src="./img/logo.png" alt="ÁguaBenga Logo"></a>
+      <h1>We Are Coming Soon</h1>
+      <p>This Website Is Still Under Construction</p>
+    </div>
   </div>
   
 </body>
