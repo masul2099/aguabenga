@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,102 +8,79 @@
   </head>
 <body>
 
-
-
   <section class="hero">
 
-    <video autoplay muted loop id="myVideo" poster="./img/drink_water.jpg">
+    <video autoplay muted loop id="background" poster="./img/drink_water.jpg">
       <source src="./img/drink_water.mp4" type="video/mp4">
     </video> 
 
     <div class="content">
-    <nav>
-      <div class="logo">
-        <img src="./img/logo.png" alt="">
-      </div>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
+      
+      <nav>
+        <div class="logo">
+          <img src="./img/logo.png" alt="">
+        </div>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
 
-    <div class="text">
-      <h1>Água Pura, Vida Pura</h1>
+      <div class="text">
+        <h1>Água Pura, Vida Saudável</h1>
+      </div>
     </div>
 
-  </div>
-
-
   </section>
-
-  <!--
 
   <section class="about" id="about">
-    <div class="title">Why Choose Agua Benga?</div>
-    <ul class="cards">
-        <li>
-          <div class="card">
-          <span class="border"></span>  
-          <div class="head">Advanced Purification</div> 
-            <div class="body">
-                We use state-of-the-art 
-                filtration and purification methods to remove 
-                contaminants, ensuring the purest water possible.
-            </div>
-          </div>  
-        </li>
-        <li>
-          <div class="card">
-            <span class="border"></span>
-          <div class="head">Health & Safety First</div>
-            <div class="body">
-                Our water is regularly 
-                tested to meet national and international 
-                quality standards.
-            </div>  
-           </div>    
-          </div>      
-        </li>
-        <li>
-          <div class="card">
-            <span class="border"></span>
-            <div class="head">Sustainable Practices</div> 
-            <div class="body">
-              We are committed to eco-friendly packaging
-              and responsible water sourcing to protect
-              the environment.
-            </div>
-          </div>    
-        </li>
-        <li>
-          <div class="card">
-            <span class="border"></span>
-            <div class="head">Reliable Delivery</div>
-            <div class="body">
-              We offer fast and convenient water 
-              delivery services to homes and businesses 
-              across Tete.
-             </div>
-            </div>  
-          </li>
-        </ul>
+
+    <div class="content">
+      <h2>Limpa, Segura e Saborosa</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="head">O Que é ÁguaBenga?</div>
+          <div class="body">
+            ÁguaBenga é uma marca de água cuidadosamente purificada que oferece qualidade e frescor excepcionais em cada gota.
+          </div>
+        </div>
+        <div class="card">
+          <div class="head">Quanto Custa ÁguaBenga Por Litro?</div>
+          <div class="body">
+            A ÁguaBenga está disponível por preços acessíveis, variando a partir de ? por litro.
+          </div>
+        </div>
+        <div class="card">
+          <div class="head">Qual é o Nível de pH da ÁguaBenga?</div>
+          <div class="body">
+            Possui um pH equilibrado de aproximadamente 7.4.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
   </section>
 
 
-  <section id="services">
-    <h1>Our Services</h1>
-    <p>
-      ✅ **Purified Bottled Water** – Available in multiple sizes for home and office use.  
-      ✅ **Bulk Water Supply** – Ideal for businesses, schools, and events.  
-      ✅ **Water Dispensers & Refills** – Affordable and convenient hydration solutions.  
-      ✅ **Custom Branding** – Personalized bottled water for corporate and special occasions.  
-      ✅ **Community Outreach** – Promoting clean water access and education in local communities.
-    </p>
-  </section>
-  
--->
+  <section class="contact" id="contact">
 
-  
+    <div class="content">
+      <h2>Vamos Conversar</h2>
+
+      <form action="">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </section>
+
 </body>
 </html>
